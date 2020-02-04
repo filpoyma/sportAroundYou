@@ -1,0 +1,16 @@
+export const STATE_KEY = {
+  MAIN: 'interpretation',
+  DATA: 'data',
+  LOADED_STATUS: 'loadedStatus',
+  SAVED_STATUS: 'savedStatus'
+};
+
+export const API_PATH = 'comments';
+
+export const SAVE_INTERPRETATION = `component/${STATE_KEY.MAIN}/SAVE_INTERPRETATION`;
+export const SAVE_INTERPRETATION_ERROR = `component/${STATE_KEY.MAIN}/SAVE_INTERPRETATION_ERROR`;
+export const SAVE_INTERPRETATION_SUCCESS = `component/${STATE_KEY.MAIN}/SAVE_INTERPRETATION_SUCCESS`;
+
+export const LOAD_INTERPRETATION = `component/${STATE_KEY.MAIN}/LOAD_INTERPRETATION`;
+export const LOAD_INTERPRETATION_ERROR = `component/${STATE_KEY.MAIN}/LOAD_INTERPRETATION_ERROR`;
+export const LOAD_INTERPRETATION_SUCCESS = `component/${STATE_KEY.MAIN}/LOAD_INTERPRETATION_SUCCESS`;

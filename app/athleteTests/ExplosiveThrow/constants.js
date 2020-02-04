@@ -1,0 +1,19 @@
+export const STATE_KEY = {
+  MAIN: 'ExplosiveThrowTest',
+  RESULTS: 'results',
+  RESULTS_BY_RANGE: 'resultsByRange'
+};
+
+export const RESULT_KEY = {
+  THROW_LENGTH: 'throwLength'
+};
+
+export const API_PATH = 'explosive';
+
+export const API_TYPE = 'THROWS';
+
+export const EXPLOSIVE_THROW_LOAD_SUCCESS = `athleteTests/${STATE_KEY.MAIN}/EXPLOSIVE_THROW_LOAD_SUCCESS`;
+export const EXPLOSIVE_THROW_LOAD_ERROR = `athleteTests/${STATE_KEY.MAIN}/EXPLOSIVE_THROW_LOAD_ERROR`;
+
+export const EXPLOSIVE_THROW_BY_DATE_RANGE_LOAD_SUCCESS = `athleteTests/${STATE_KEY.MAIN}/EXPLOSIVE_THROW_BY_DATE_RANGE_LOAD_SUCCESS`;
+export const EXPLOSIVE_THROW_BY_DATE_RANGE_LOAD_ERROR = `athleteTests/${STATE_KEY.MAIN}/EXPLOSIVE_THROW_BY_DATE_RANGE_LOAD_ERROR`;

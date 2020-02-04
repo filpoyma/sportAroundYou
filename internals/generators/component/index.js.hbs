@@ -1,0 +1,25 @@
+import PropTypes from 'prop-types';
+import React from 'react';
+
+import injectStyles from '@/utils/injectStyles';
+
+import styles from './styles';
+
+const {{ properCase name }} = ({ children, className }) => (
+  <div className={className}>
+    {children}
+  </div>
+);
+
+{{ properCase name }}.propTypes = {
+  className: PropTypes.string.isRequired,
+  children: PropTypes.node
+};
+
+{{ properCase name }}.defaultProps = {
+  children: undefined
+};
+
+{{ properCase name }}.displayName = '{{ properCase name }}Component';
+
+export default injectStyles({{ properCase name }}, styles);

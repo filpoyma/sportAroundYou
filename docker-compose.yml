@@ -1,0 +1,23 @@
+version: '3'
+services:
+  db:
+    image: roclab/pgbase:v1.0
+    container_name: database
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: innovation
+      POSTGRES_USER: postgres
+      PGDATA: /data
+      restart: always
+  web:
+  #    build: .
+    image: roclab/app:latest
+    container_name: app
+    environment:
+      POSTGRES_HOST: db
+    ports:
+      - 8085:8085
+    restart: always
+    links:
+      - db

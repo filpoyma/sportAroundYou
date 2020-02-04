@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bar /> Should render and match the snapshot 1`] = `
+<canvas
+  height="40"
+  width="425"
+/>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> Should render and match the snapshot 1`] = `
+<div
+  class="AvatarComponent-sc-1cbh0i-0 izfwcl"
+/>
+`;

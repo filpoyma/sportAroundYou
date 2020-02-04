@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should shallow render and match the snapshot 1`] = `
+<div
+  class="WrapperComponent-sc-1cbh0i-0 dMZPDh"
+>
+  <div
+    class="BoxComponent-sc-1cbh0i-0 jihTBI"
+  >
+    <button
+      class="ButtonComponent-sc-1cbh0i-0 bjZvJu"
+      type="button"
+    >
+      Кнопка
+    </button>
+  </div>
+  <div
+    class="BoxComponent-sc-1cbh0i-0 jihTBI"
+  >
+    <button
+      class="ButtonComponent-sc-1cbh0i-0 bjZvJu"
+      type="button"
+    >
+      Большая кнопка
+    </button>
+  </div>
+</div>
+`;

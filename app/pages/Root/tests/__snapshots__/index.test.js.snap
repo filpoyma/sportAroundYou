@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Root /> should shallow render and match the snapshot 1`] = `
+<React.Fragment>
+  <ForwardRef(HeaderContainer) />
+  <main>
+    <Switch>
+      <Redirect
+        exact={true}
+        from="/"
+        to="/77"
+      />
+      <Route
+        component={[Function]}
+        path="/:athleteId"
+      />
+      <Route
+        component={[Function]}
+      />
+    </Switch>
+  </main>
+  <ForwardRef(FooterContainer) />
+  <GlobalStyleComponent />
+</React.Fragment>
+`;
